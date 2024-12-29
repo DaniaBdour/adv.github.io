@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #02CCFE, #000000);
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .course-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .course {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .course:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .course img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .course h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+        }
+
+        .course p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .course button {
+            background-color: #0056b3;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 15px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .course button:hover {
+            background-color: #003f7f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<i class="fas fa-book-reader fa-2x mx-3"></i> <b>CoursesGenerator</b></a>
+        <h1>Explore Our IT Courses</h1>
+    </header>
+
+    <section class="course-container">
+        <div class="course">
+            <img src="media/webImage.jpg" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript, and build stunning websites.</p>
+            <button onclick="location.href='Payment.html'">Enroll Now</button>
+        </div>
+
+        <div class="course">
+            <img src="media/dataScience.jpg" alt="Data Science">
+            <h3>Data Science</h3>
+            <p>Master data analysis, machine learning, and AI concepts.</p>
+            <button onclick="location.href='Payment.html'">Enroll Now</button>
+        </div>
+
+        <div class="course">
+            <img src="media/cyber.jpg" alt="Cybersecurity">
+            <h3>Cybersecurity</h3>
+            <p>Protect systems and networks with expert security knowledge.</p>
+            <button onclick="location.href='Payment.html'">Enroll Now</button>
+        </div>
+
+        <div class="course">
+            <img src="media/cloud.jpg" alt="Cloud Computing">
+            <h3>Cloud Computing</h3>
+            <p>Dive into AWS, Azure, and cloud infrastructure technologies.</p>
+            <button onclick="location.href='Payment.html'">Enroll Now</button>
+        </div>
+		
+		<div class="course">
+            <img src="media/dev.jpg" alt="DevOps">
+            <h3>DevOps</h3>
+            <p>Learn CI/CD, automation, and containerization techniques.</p>
+            <button onclick="location.href='Payment.html'">Enroll Now</button>
+        </div>
+
+        <div class="course">
+            <img src="media/AI.jpg" alt="Artificial Intelligence">
+            <h3>Artificial Intelligence</h3>
+            <p>Understand AI models and develop intelligent applications.</p>
+            <button onclick="location.href='Payment.html'">Enroll Now</button>
+        </div>
+		
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CoursesGenerator. All rights reserved.</p>
+    </footer>
+</body>
+</html>

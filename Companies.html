@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #02CCFE, #000000);
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .course-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .course {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .course:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .course img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .course h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+        }
+
+        .course p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .course button {
+            background-color: #0056b3;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 15px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .course button:hover {
+            background-color: #003f7f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 0px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<i class="fas fa-book-reader fa-2x mx-3"></i> <b>CoursesGenerator</b></a>
+        <h1>Explore Our Partners</h1>
+    </header>
+
+    <section class="course-container">
+        <div class="course">
+            <img src="media/orange.jpg" alt="Orange">
+            <h3>Orange</h3>
+            <p> Orange (formerly France Télécom, stylised as france telecom) is a French multinational telecommunications corporation founded in 1988 and headquartered in Issy-les-Moulineaux, near Paris.
+                Orange has been the corporation's main brand for mobile, landline, internet and Internet Protocol television (IPTV) services since 2006. It traces its origins back to Hutchison Whampoa acquiring a controlling
+                stake in Microtel Communications in 1994 in the United Kingdom. </p>
+            
+        </div>
+
+        <div class="course">
+            <img src="media/shm.jpg" alt="Estarta">
+            <h3>Estarta</h3>
+            <p>Global ICT solutions innovator with a strong presence in eight countries, headquartered in Jordan.</p>
+            
+        </div>
+
+        <div class="course">
+            <img src="media/academy.jpg" alt="The knowledge Academy">
+            <h3>The knowledge Academy</h3>
+            <p>The knowledge academy is a UK-based global training company. They provide IT, business management and project management training for individuals and organisations.</p>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CoursesGenerator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
